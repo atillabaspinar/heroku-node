@@ -9,4 +9,4 @@ app.use('/', (req, res, next) => {
   res.render('index');
 })
 
-app.listen(5000);
+  .listen(process.env.PORT || 5000)
